@@ -3,8 +3,7 @@ pipeline {
      tools {
        maven 'M2_HOME'
            }
-     
-  stages {
+    stages {
     stage('Git Checkout') {
       steps {
         echo 'This stage is to clone the repo from github'
